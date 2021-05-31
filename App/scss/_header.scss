@@ -1,0 +1,24 @@
+.header {
+  nav {
+    padding: 24px;
+  }
+  /*&__logo {
+    img {
+    }
+  }*/
+
+  //Mobile Menu
+  &__menu {
+    span {
+      display: block;
+      width: 26px;
+      height: 2px; //height of each line
+      background-color: $darkBlue;
+
+      //Margin bottom for all spans except the last one
+      &:not(:last-child) {
+        margin-bottom: 3px;
+      }
+    }
+  }
+}
